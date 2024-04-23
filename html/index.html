@@ -4,20 +4,38 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+
     <title>Portfolio</title>
+
+    <script src="../js/main.js" defer></script>
   </head>
   <body>
     <header>
       <nav aria-label="Navigation">
-        <ul>
-          <li>
-            <a href="index.html"><button>Inicio</button></a>
-          </li>
-          
-          <li>
-            <a href="projetos.html"><button>Projetos</button></a>
-          </li>
-        </ul>
+        <div id="menu-burger">
+          <img
+            src="../css/images/menu-burguer.svg"
+            alt="menu burguer"
+            srcset=""
+          />
+        </div>
+        <div id="nav-list">
+          <ul>
+            <li>
+              <button>
+                <a href="index.html">Inicio <span></span></a>
+              </button>
+            </li>
+            <li>
+              <button>
+                <a href="projetos.html">Projetos <span></span></a>
+              </button>
+            </li>
+          </ul>
+          <span id="green-line"> <span id="arrow"></span></span>
+        </div>
       </nav>
     </header>
     <main>
