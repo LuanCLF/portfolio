@@ -1,10 +1,10 @@
 header {
   display: flex;
   justify-content: right;
-  
-  position: fixed; 
-  top: 0; 
-  width: 100%; 
+
+  position: fixed;
+  top: 0;
+  width: 100%;
   z-index: 1000;
   nav {
     padding: 2rem;
@@ -12,14 +12,14 @@ header {
     #menu-burger {
       display: block;
 
-      @media (min-width: 700px) {
+      @media (min-width: 750px) {
         display: none;
       }
     }
 
     #nav-list {
       display: none;
-      @media (min-width: 700px) {
+      @media (min-width: 750px) {
         display: flex;
       }
       ul {
@@ -36,12 +36,12 @@ header {
         }
       }
 
-      @media (max-width: 700px) {
+      @media (max-width: 750px) {
         #green-line {
           width: 0.5rem;
           height: 13rem;
           display: block;
-          background-color: #84b026;
+          background-color: var(--color-2);
 
           position: absolute;
           right: 10rem;
@@ -53,17 +53,17 @@ header {
             position: absolute;
             width: 1.4rem;
             height: 1.4rem;
-            background-color: #84b026;
+            background-color: var(--color-2);
             border-radius: 50%;
             left: -0.5rem;
           }
 
           &::before {
-            top: 19%;
+            top: 18%;
           }
 
           &::after {
-            top: 68%;
+            top: 63%;
           }
 
           #arrow {
@@ -75,7 +75,7 @@ header {
             height: 0;
             border-left: 0.9rem solid transparent;
             border-right: 0.9rem solid transparent;
-            border-top: 1.8rem solid #84b026;
+            border-top: 1.8rem solid var(--color-2);
           }
         }
 
@@ -91,18 +91,20 @@ header {
 
           li {
             button {
+              background: var(--color-1);
               padding: 1rem 2rem;
 
-              border: 1px solid #84b026;
+              border: 2px solid var(--color-2);
               border-top: 0;
               border-left: 0;
 
-              border-radius: 1rem;
-
               a {
-                font-size: 2rem;
                 span {
                   display: none;
+                }
+
+                &:hover {
+                  color: var(--color-2);
                 }
               }
             }

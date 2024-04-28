@@ -1,0 +1,163 @@
+body {
+  main {
+    #hero {
+      padding: 10vh 0 0 10vw;
+      height: 100vh;
+
+      background-image: url("./images/foto-mao-p.jpg");
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+      @media (min-width: 750px) {
+        background-image: url("./images/foto-mao-g.png");
+
+        padding-top: 35vh;
+      }
+    }
+
+    #info {
+      padding: 25vh 5vw 0vh 5vw;
+      height: 100vh;
+
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+
+      @media (min-width: 500px) {
+        gap: 5rem;
+      }
+
+      @media (min-width: 600px) {
+        padding-left: 10vw;
+        padding-right: 10vw;
+      }
+
+      @media (min-width: 750px) {
+        gap: 7rem;
+      }
+
+      #about {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+        justify-content: center;
+
+        gap: 3rem;
+
+
+        img {
+          display: none;
+
+          width: 30%;
+          max-height: 30rem;
+          object-fit: cover;
+
+          border-radius: 0 0 1rem 1rem;
+
+          @media (min-width: 600px) {
+            display: block;
+          }
+        }
+        p {
+          width: 70%;
+
+          font-size: 1rem;
+          text-align: justify;
+          line-height: 2rem;
+
+          @media (min-width: 600px) {
+            font-size: 1.2rem;
+            line-height: 2.2rem;
+          }
+
+          @media (min-width: 750px) {
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+          }
+
+          @media (min-width: 1100px) {
+            font-size: 2rem;
+            line-height: 3rem;
+          }
+          
+          
+        }
+      }
+
+      #contact {
+        nav {
+          ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+
+            li {
+              button {
+                padding: 1rem 1.6rem;
+
+                border: 2px solid var(--color-2);
+                border-top: 0;
+                border-left: 0;
+
+                a {
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  gap: 1rem;
+
+                  .icon {
+                    width: 2rem;
+                    height: 2rem;
+
+                    @media (min-width: 650px) {
+                      width: 2.5rem;
+                      height: 3rem;
+                    }
+
+                    @media (min-width: 750px) {
+                      width: 3rem;
+                      height: 3.5rem;
+                    }
+
+
+                  }
+
+                  @media (min-width: 600px) {
+                    font-size: 1.8rem;
+                  }
+                }
+
+                #whatsapp {
+                  order: 1;
+                }
+
+                #github {
+                  order: 2;
+                  align-self: center;
+                }
+
+                #linkedin {
+                  order: 3;
+                }
+              }
+            }
+            @media (min-width: 600px) {
+              gap: 4rem;
+            }
+            @media (min-width: 750px) {
+              gap: 5rem;
+            }
+            @media (min-width: 1000px) {
+              gap: 9rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
