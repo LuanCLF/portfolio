@@ -47,7 +47,6 @@ body {
 
         gap: 3rem;
 
-
         img {
           display: none;
 
@@ -82,8 +81,6 @@ body {
             font-size: 2rem;
             line-height: 3rem;
           }
-          
-          
         }
       }
 
@@ -110,6 +107,10 @@ body {
                   align-items: center;
                   gap: 1rem;
 
+                  &:hover {
+                    color: var(--color-2);
+                  }
+
                   .icon {
                     width: 2rem;
                     height: 2rem;
@@ -123,8 +124,6 @@ body {
                       width: 3rem;
                       height: 3.5rem;
                     }
-
-
                   }
 
                   @media (min-width: 600px) {
