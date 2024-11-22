@@ -1,0 +1,121 @@
+/* TEXTOS */
+
+/* Desktop */
+:root {
+  --font-h1: 6.4rem; /* 64px */
+  --font-h2: 4.8rem; /* 48px */
+  --font-h3: 3.6rem; /* 36px */
+  --font-h4: 3rem; /* 30px */
+  --font-h5: 2.4rem; /* 24px */
+  --font-h6: 2rem; /* 20px */
+
+  --font-body: 1.6rem; /* 16px */
+  --font-p: 1.6rem; /* 16px */
+  --font-a: 1.6rem; /* 16px */
+  --font-button: 1.4rem; /* 14px */
+  --font-span: 1.4rem; /* 14px */
+  --font-small: 1.2rem; /* 12px */
+
+  /* Line height */
+  --line-title: 1.2; /* Para títulos */
+  --line-body: 1.5; /* Para texto de descrição */
+
+  /* Letter spacing */
+  --letter-title: 0.05rem; /* Para títulos */
+  --letter-body: 0.01rem; /* Para texto de descrição */
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  :root {
+    --font-h1: 3.8rem; /* 48px */
+    --font-h2: 3.6rem; /* 36px */
+    --font-h3: 3rem; /* 30px */
+    --font-h4: 2.4rem; /* 24px */
+    --font-h5: 2rem; /* 20px */
+    --font-h6: 1.8rem; /* 18px */
+
+    --font-body: 1.4rem; /* 14px */
+    --font-p: 1.4rem; /* 14px */
+    --font-a: 1.4rem; /* 14px */
+    --font-button: 1.2rem; /* 12px */
+    --font-span: 1.2rem; /* 12px */
+    --font-small: 1rem; /* 10px */
+
+    /* Line height */
+    --line-title: 1.2; /* Para títulos */
+    --line-body: 1.5; /* Para texto de descrição */
+
+    /* Letter spacing */
+    --letter-title: 0.04rem; /* Para títulos */
+    --letter-body: 0.01rem; /* Para texto de descrição */
+  }
+}
+
+/* CORES */
+
+:root {
+  /* Blue */
+  --blue-1: #267399; /* Cor principal */
+  --blue-2: #3b8ab5; /* Mais clara */
+  --blue-3: #20608b; /* Um pouco mais escura */
+  --blue-4: #15456a; /* Bem mais escura */
+  --blue-5: #e3effa; /* Muito clara (backgrounds) */
+
+  /* Red */
+  --red-1: #992631; /* Cor principal */
+  --red-2: #b43d4b; /* Mais clara */
+  --red-3: #7a1f28; /* Um pouco mais escura */
+  --red-4: #5a161d; /* Bem mais escura */
+  --red-5: #fce8ea; /* Muito clara (backgrounds) */
+
+  /* Yellow */
+  --yellow-1: #999526; /* Cor principal */
+  --yellow-2: #b5b047; /* Mais clara */
+  --yellow-3: #7e741f; /* Um pouco mais escura */
+  --yellow-4: #5d5616; /* Bem mais escura */
+  --yellow-5: #fcfbe3; /* Muito clara (backgrounds) */
+
+  /* Orange */
+  --orange-1: #d98e26; /* Cor principal */
+  --orange-2: #eaa552; /* Mais clara */
+  --orange-3: #b87220; /* Um pouco mais escura */
+  --orange-4: #8a5618; /* Bem mais escura */
+  --orange-5: #fbe7d1; /* Muito clara (backgrounds) */
+
+  /* Gray */
+  --gray-1: #333; /* Cor principal */
+  --gray-2: #666; /* Mais clara */
+  --gray-3: #999; /* Um pouco mais escura */
+  --gray-4: #ccc; /* Bem mais escura */
+  --gray-5: #f5f5f5; /* Muito clara (backgrounds) */
+}
+
+/* TAMANHOS */
+
+:root {
+  /* Padding */
+  --padding-small: 0.5rem;
+  --padding-medium: 1rem;
+  --padding-large: 2rem;
+
+  /* Margin */
+  --margin-small: 0.5rem;
+  --margin-medium: 1rem;
+  --margin-large: 2rem;
+
+  /* Border Radius */
+  --border-radius-small: 0.25rem;
+  --border-radius-medium: 0.5rem;
+  --border-radius-large: 1rem;
+
+  /* Width */
+  --width-small: 10rem;
+  --width-medium: 20rem;
+  --width-large: 40rem;
+
+  /* Height */
+  --height-small: 10rem;
+  --height-medium: 20rem;
+  --height-large: 40rem;
+}
