@@ -8,23 +8,31 @@
 
     <link rel="stylesheet" href="./css/styles.css" />
 
-    <script src="./js/main.js" defer></script>
+    <script src="./js/index.js" defer></script>
   </head>
   <body>
     <header>
-      <span><a href="#">Luan Charlys</a></span>
+      <span>
+        <a id="nameHeader" href="#">Luan Charlys</a>
+        <a id="homeHeader" href="#"
+          ><img src="./css/icons/home.svg" alt=""
+        /></a>
+      </span>
       <nav>
-        <ul>
-          <li>
-            <a href="#services">Serviços <span class="lineLink"></span></a>
-          </li>
-          <li>
-            <a href="#projects">Projetos <span class="lineLink"></span></a>
-          </li>
-          <li>
-            <a href="#contact">Contato <span class="lineLink"></span></a>
-          </li>
-        </ul>
+        <div id="menu">
+          <span id="menu-burger">☰</span>
+          <ul>
+            <li>
+              <a href="#services">Serviços <span class="lineLink"></span></a>
+            </li>
+            <li>
+              <a href="#projects">Projetos <span class="lineLink"></span></a>
+            </li>
+            <li>
+              <a href="#contact">Contato <span class="lineLink"></span></a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
@@ -32,7 +40,7 @@
         <h1>Transformando Ideias</h1>
         <p>Vamos encontrar uma solução digital para seu problema</p>
 
-        <buton class="btn"><a href="#contato">Envie uma mensagem</a></buton>
+        <a class="btn" href="#contact">Entrar em contato</a>
       </section>
       <section id="services">
         <span id="spanH2Servicos">Solução Para Seus Problemas</span>
@@ -84,7 +92,7 @@
           </li>
         </ul>
         <p>Sente que tem outra necessidade? Então vamos conversar!</p>
-        <buton class="btn"><a href="#contato">Envie uma mensagem</a></buton>
+        <a class="btn" href="#contact">Entrar em contato</a>
       </section>
       <section id="projects">
         <h2>Projetos</h2>
@@ -202,57 +210,42 @@
           </li>
         </ul>
       </section>
-
-      <footer id="contact">
-        <h2>Entre em contato</h2>
-        <p class="pSubtitle">Vamos conversar sobre suas necessidades por:</p>
-        <ul>
-          <li>
-            <button class="btn">
-              <img src="" alt="" />
-              <a href="">WhatsApp</a>
-            </button>
-          </li>
-          <li>
-            <button class="btn">
-              <img src="" alt="" />
-              <a href="">Email</a>
-            </button>
-          </li>
-          <li>
-            <button class="btn">
-              <img src="" alt="" />
-              <a href="">(84) 9 8716-6835</a>
-            </button>
-          </li>
-          <li>
-            <button class="btn">
-              <img src="" alt="" />
-              <a href="">GitHub</a>
-            </button>
-          </li>
-        </ul>
-
-        <p>Ou</p>
-        <form>
-          <div>
-            <div>
-              <label for="name">Nome:</label>
-              <input type="text" id="name" name="name" placeholder="Henrique Souza"/>
-            </div>
-            <div>
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" placeholder="henrique@gmail.com" />
-            </div>
-            <div>
-              <label for="message">Mensagem:</label>
-              <textarea id="message" name="message" placeholder="Olá, gostaria de falar sobre um projeto de desenvolvimento web.
-              "></textarea>
-            </div>
-          </div>
-          <button class="btn" type="submit">Enviar</button>
-        </form>
-      </footer>
     </main>
+    <footer id="contact">
+      <h2>Entre em contato</h2>
+      <p class="pSubtitle">Vamos conversar sobre suas necessidades por:</p>
+      <ul>
+        <li>
+          <a
+            class="btn btnContact"
+            href="https://api.whatsapp.com/message/YZE3JRTLBAVKM1?autoload=1&app_absent=0"
+            target="_blank"
+            ><img src="./css/icons/whatsapp.svg" alt="" /> WhatsApp</a
+          >
+        </li>
+        <li>
+          <a
+            class="btn btnContact"
+            href="mailto:firminocharlys@gmail.com"
+            target="_blank"
+            ><img src="./css/icons/email.svg" alt="" /> Email</a
+          >
+        </li>
+        <li>
+          <a
+            class="btn btnContact"
+            href="https://github.com/LuanCLF"
+            target="_blank"
+            ><img src="./css/icons/github.svg" alt="" /> GitHub</a
+          >
+        </li>
+      </ul>
+      <p>&copy; 2024 Luan Charlys. Todos os direitos reservados.</p>
+      <p>
+        Telefone: (84) 9 8716-6835
+        <br />
+        Email: firminocharlys@gmail.com
+      </p>
+    </footer>
   </body>
 </html>
