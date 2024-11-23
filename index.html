@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-      <span>Luan Charlys</span>
+      <span><a href="#">Luan Charlys</a></span>
       <nav>
         <ul>
           <li>
@@ -203,45 +203,56 @@
         </ul>
       </section>
 
-      <section id="contato">
+      <footer id="contact">
         <h2>Entre em contato</h2>
-        <p class="pSubtitle">Vamos conversar sobre suas necessidades</p>
+        <p class="pSubtitle">Vamos conversar sobre suas necessidades por:</p>
         <ul>
           <li>
-            <button>
+            <button class="btn">
               <img src="" alt="" />
               <a href="">WhatsApp</a>
             </button>
           </li>
           <li>
-            <button>
+            <button class="btn">
               <img src="" alt="" />
               <a href="">Email</a>
             </button>
           </li>
           <li>
-            <button>
+            <button class="btn">
               <img src="" alt="" />
               <a href="">(84) 9 8716-6835</a>
             </button>
           </li>
           <li>
-            <button>
+            <button class="btn">
               <img src="" alt="" />
               <a href="">GitHub</a>
             </button>
           </li>
         </ul>
+
+        <p>Ou</p>
         <form>
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" name="nome" />
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" />
-          <label for="mensagem">Mensagem</label>
-          <textarea id="mensagem" name="mensagem"></textarea>
-          <button type="submit">Enviar</button>
+          <div>
+            <div>
+              <label for="name">Nome:</label>
+              <input type="text" id="name" name="name" placeholder="Henrique Souza"/>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="henrique@gmail.com" />
+            </div>
+            <div>
+              <label for="message">Mensagem:</label>
+              <textarea id="message" name="message" placeholder="Olá, gostaria de falar sobre um projeto de desenvolvimento web.
+              "></textarea>
+            </div>
+          </div>
+          <button class="btn" type="submit">Enviar</button>
         </form>
-      </section>
+      </footer>
     </main>
   </body>
 </html>
