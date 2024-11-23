@@ -4,7 +4,7 @@
   /* Desktop */
   --font-h1: 6.4rem; /* 64px */
   --font-h2: 4.8rem; /* 48px */
-  --font-h3: 3.6rem; /* 36px */
+  --font-h3: 3rem; /* 36px */
   --font-h4: 3rem; /* 30px */
   --font-h5: 2.4rem; /* 24px */
   --font-h6: 2rem; /* 20px */
@@ -94,7 +94,7 @@
   /* Gap */
   --gap-small: 0.5rem;
   --gap-medium: 1rem;
-  --gap-large: 2rem;
+  --gap-large: 3rem;
 }
 
 /* Mobile */
