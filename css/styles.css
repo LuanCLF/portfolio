@@ -128,14 +128,15 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    padding: 1rem 3rem;
+    padding: 0 3rem;
+    height: 7rem;
 
     background-color: var(--gray-5);
 
     box-shadow: 1px 2px 5px var(--gray-4);
 
     @media (min-width: 600px) {
-      padding: 2rem 4rem;
+      padding: 0 4rem;
     }
 
     @media (min-width: 950px) {
@@ -150,7 +151,7 @@ body {
 
     #homeHeader {
       display: block;
-      margin-top: 12px;
+      margin-top: 10px;
 
       @media (min-width: 600px) {
         display: none;
@@ -182,7 +183,7 @@ body {
           flex-direction: column;
           align-items: end;
           position: absolute;
-          top: 5.3rem;
+          top: 5.4rem;
           right: 0;
 
           padding: var(--padding-large);
